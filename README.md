@@ -18,7 +18,10 @@ Notre architecture doit comprendre plusieurs composants clés :
 - Un conteneur pour MariaDB, isolé des autres services pour une sécurité renforcée.
 - Deux volumes distincts, l'un pour la base de données WordPress et l'autre pour les fichiers du site web WordPress, assurant une gestion efficace des données.
 - Un réseau Docker spécifique pour faciliter la communication inter-conteneurs, tout en respectant les bonnes pratiques de sécurité et d'isolation.
-- L'une des contraintes majeures du projet est l'interdiction d'utiliser des images Docker préconstruites (à l'exception des images de base Alpine/Debian) ou des services comme DockerHub pour nos services. Cette approche nous pousse à développer une compréhension plus profonde de la personnalisation et de l'optimisation des conteneurs.
+
+<br>
+
+L'une des contraintes majeures du projet est l'interdiction d'utiliser des images Docker préconstruites (à l'exception des images de base Alpine/Debian) ou des services comme DockerHub pour nos services. Cette approche nous pousse à développer une compréhension plus profonde de la personnalisation et de l'optimisation des conteneurs.
 
 En outre, nous devons veiller à ce que nos conteneurs soient conçus pour redémarrer automatiquement en cas de crash, tout en évitant les pratiques non recommandées telles que l'utilisation de commandes créant des boucles infinies comme point d'entrée.
 
