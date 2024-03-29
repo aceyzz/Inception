@@ -35,4 +35,4 @@ Pour mener à bien ce projet, il est essentiel que nous plongions dans une docum
 
 <br>
 
-< still in constructions >
+< still in construction... >
